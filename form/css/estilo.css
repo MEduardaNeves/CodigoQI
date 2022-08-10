@@ -1,0 +1,44 @@
+@charset 'utf-8';
+
+body{
+    background-image: url(../img/fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#geral{
+    width: 55%;
+    margin: auto;
+    background-color: rgb(233, 240, 255);
+    border-radius: 2.5vmin;
+    color: rgb(4, 0, 128);
+    font-family: sans-serif;
+}
+
+fieldset{
+    border-radius: 2.5vmin;
+}
+
+legend{
+    color: rgb(74, 74, 195);
+    font-size: 3vmin;
+    font-weight: bold;
+}
+
+input, select, textarea{
+    border-radius: 0.8vmin;
+    border: none;
+    height: 3.3vmin;
+    background-color: rgba(202, 217, 255, 0.741);
+}
+
+textarea{
+    height: auto;
+}
+
+img{
+    width: 15px; ;
+    margin: right 5px; ;
+}

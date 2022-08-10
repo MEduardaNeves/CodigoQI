@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <title>Trabalho Final PHP</title>
+</head>
+<body>
+    <main id="geral">
+            <fieldset>
+                    <legend form action="" method="get" style="width: 50; margin: auto;"></form>CADASTRO DE USUÁRIO KSHOT</legend>
+                </p>
+                <fieldset> 
+                    <p>
+                        <label>
+                            Nome: <input type="text">
+                        </label>
+                    </p>
+                    <p>
+                        <label for="idade">
+                            Idade: <input type="number" id="idade">
+                        </label>
+                    </p>
+
+                    <fieldset>
+                        <legend>Gênero</legend>
+                            <label>
+                                <input type="radio" name="gênero" checked>Masculino
+                            </label>
+                            <label>
+                                <input type="radio" name="gênero" checked>Feminino
+                            </label>
+                            <label>
+                                <input type="radio" name="gênero" checked>Outro
+                            </label>
+                    </fieldset>
+                </fieldset>
+
+                <fieldset>
+                    <legend> Dados Financeiros</legend>
+                        <label>
+                            Emprego atual: <input type="text">
+                        </label>
+                        <label>
+                            Possui cartões? <input type="text">
+                        </label>
+                        <br>
+                        <label>
+                            CPF: <input type="text">
+                        </label>
+                        <label>
+                            Salário
+                            <select>
+                                <option value="">R$0 - R$1.000</option>
+                                <option value="">R$1.000 - R$3.000</option>
+                                <option value="">R$4.000 - R$7.000</option>
+                                <option value="">R$8.000 - R$10.000</option>
+                                <option value="">ACIMA DE R$10.000</option>
+                            </select>
+                        </label>
+                        <p>
+                            <label>
+                                Qual a sua maior dificuldade no gerenciamento financeiro?<br>
+                                <textarea cols="58" rows="4"></textarea>
+                            </label>
+                        </p>
+                        <label>
+                            Anexar foto do RG: <input type="file">
+                        </label>                        
+                </fieldset>
+
+                <fieldset>
+                    <legend>Cadastro Cartão</legend>
+                    <label>
+                        <input type="radio" name="gênero" checked>Crédito
+                    </label>
+                    <label>
+                        <input type="radio" name="gênero" checked>Débito
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        Qual a bandeira?
+                        <select>
+                            <option value="">Visa</option>
+                            <option value="">Elo</option>
+                            <option value="">Mastercard</option>
+                            <option value="">Hipercard</option>
+                            <option value="">VR Refeição</option>
+                            <option value="">Outro</option>
+                        </select>
+                    </label>
+                    <label>
+                        Número do cartão: <input type="text">
+                    </label>
+                    <br>
+                    <label>
+                        Validade: <input type="text">
+                    </label>
+                    <label>
+                        CVV: <input type="text">
+                    </label>
+                    <label>
+                        Nome do titular: <input type="text">
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Usuário e senha</legend>
+                    <label>
+                        Usuário: <input type="text">
+                    </label>
+                    <p>
+                        <label>
+                            Senha: <input type="password">
+                        </label>
+                    </p>
+                    <input type="button" value="Validar">
+                </fieldset>
+                <fieldset>
+                    <input type="submit" value="Cadastrar">
+                    <input type="reset" value="Limpar formulário"> 
+                </fieldset>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
